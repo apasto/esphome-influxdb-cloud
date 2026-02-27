@@ -45,5 +45,6 @@ async def to_code(config):
         cg.add_library('HTTPClient', None)
     if CORE.is_esp8266:
         cg.add_library('ESP8266HTTPClient', None)
-    
-    cg.add_library('tobiasschuerg/ESP8266 Influxdb', '3.13.2')
+        
+    cg.add_library('f4n/InfluxDB-Client-for-Arduino', '3.13.2')
+    #cg.add_library('tobiasschuerg/ESP8266 Influxdb', '3.13.2')
