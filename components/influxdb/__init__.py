@@ -43,6 +43,7 @@ async def to_code(config):
         cg.add_library('Network', None)
         cg.add_library('NetworkClientSecure', None)
         cg.add_library('HTTPClient', None)
+        cg.add_library('WiFi', None)
     if CORE.is_esp8266:
         cg.add_library('ESP8266HTTPClient', None)
         
